@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://i8soj8r3ppdo"]
+
+[ext_resource type="Texture2D" uid="uid://cxs410tylrdl8" path="res://Justdebugsprites/Green16x16.png" id="1_glv2v"]
+[ext_resource type="PackedScene" uid="uid://bhcbhricemcba" path="res://Character.tscn" id="2_uu6xs"]
+
+[node name="Node2D" type="Node2D" unique_id=1202836951]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=309994377]
+offset_right = 1146.0
+offset_bottom = 652.0
+texture = ExtResource("1_glv2v")
+
+[node name="CharacterBody2D" parent="." unique_id=2117472170 instance=ExtResource("2_uu6xs")]
