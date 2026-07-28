@@ -1,8 +1,11 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1785223093
+::res://::1785224945
 icon.svg::CompressedTexture2D::2312257426707822001::1785222136::1785222144::1::::<><><>0<>0<>4906f2eae45f022e1a0fa299424e4e51<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-Main.tscn::PackedScene::630753646471820232::1785223129::0::1::::<><><>0<>0<><>::uid://cxs410tylrdl8::::res://Justdebugsprites/Green16x16.png
-Character.tscn::PackedScene::2881945467569625994::1785223060::0::1::::<><><>0<>0<><>::uid://77csosqsqr3v::::res://icon.svg
-Movement.gd::GDScript::2286128443628774546::1785223129::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://Justdebugsprites/::1785222208
+Main.tscn::PackedScene::630753646471820232::1785224945::0::1::::<><><>0<>0<><>::uid://cxs410tylrdl8::::res://Justdebugsprites/Green16x16.png<>uid://bhcbhricemcba::::res://Character/Character.tscn<>uid://7tog35e7abpq::::res://Scripts/Movement.gd
+::res://Character/::1785224838
+Character.tscn::PackedScene::2881945467569625994::1785223134::0::1::::<><><>0<>0<><>::uid://77csosqsqr3v::::res://icon.svg
+::res://Justdebugsprites/::1785225045
+BadBush.png::CompressedTexture2D::6326454217955985906::1785225045::1785225046::1::::<><><>0<>0<>2ece8cafca034210b5673d2a003359d2<>res://.godot/imported/BadBush.png-b3a24614c65420b1f18348337beab011.ctex::
 Green16x16.png::CompressedTexture2D::6426152137606637083::1785222208::1785222208::1::::<><><>0<>0<>e576db283d09e337361af3182aefeaff<>res://.godot/imported/Green16x16.png-fa15e6e61e4e8326c2fbe32e06c3d37b.ctex::
+::res://Scripts/::1785224917
+Movement.gd::GDScript::2286128443628774546::1785224917::0::1::::<>CharacterBody2D<><>0<>0<><>::

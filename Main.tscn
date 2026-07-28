@@ -1,7 +1,12 @@
 [gd_scene format=3 uid="uid://i8soj8r3ppdo"]
 
 [ext_resource type="Texture2D" uid="uid://cxs410tylrdl8" path="res://Justdebugsprites/Green16x16.png" id="1_glv2v"]
-[ext_resource type="PackedScene" uid="uid://bhcbhricemcba" path="res://Character.tscn" id="2_uu6xs"]
+[ext_resource type="PackedScene" uid="uid://bhcbhricemcba" path="res://Character/Character.tscn" id="2_uu6xs"]
+[ext_resource type="Script" uid="uid://7tog35e7abpq" path="res://Scripts/Movement.gd" id="3_r0du0"]
+[ext_resource type="Texture2D" uid="uid://cwet1n28acuja" path="res://Justdebugsprites/BadBush.png" id="4_cm0pq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fos0i"]
+size = Vector2(126, 57)
 
 [node name="Node2D" type="Node2D" unique_id=1202836951]
 
@@ -11,3 +16,19 @@ offset_bottom = 652.0
 texture = ExtResource("1_glv2v")
 
 [node name="CharacterBody2D" parent="." unique_id=2117472170 instance=ExtResource("2_uu6xs")]
+script = ExtResource("3_r0du0")
+speed = 400.0
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=1656533314]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1502123318]
+position = Vector2(1003, 343)
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D" unique_id=2075686690]
+texture_filter = 1
+scale = Vector2(7.9375, 7.4375)
+texture = ExtResource("4_cm0pq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1206382627]
+position = Vector2(0, 30.5)
+shape = SubResource("RectangleShape2D_fos0i")
