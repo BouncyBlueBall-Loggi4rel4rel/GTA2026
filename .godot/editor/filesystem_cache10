@@ -1,9 +1,11 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1785231161
+::res://::1785232504
 icon.svg::CompressedTexture2D::2312257426707822001::1785222136::1785222144::1::::<><><>0<>0<>4906f2eae45f022e1a0fa299424e4e51<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-Main.tscn::PackedScene::630753646471820232::1785231161::0::1::::<><><>0<>0<><>::uid://cxs410tylrdl8::::res://Justdebugsprites/Green16x16.png<>uid://bhcbhricemcba::::res://Character/Character.tscn<>uid://7tog35e7abpq::::res://Scripts/Movement.gd<>uid://crklf6xpj2dko::::res://Assets/Sprites/Trees/Treemap.png
+Main.tscn::PackedScene::630753646471820232::1785232504::0::1::::<><><>0<>0<><>::uid://cjxbysv3syuu::::res://Assets/Sprites/Ground/Grass.png<>uid://bhcbhricemcba::::res://Character/Character.tscn<>uid://7tog35e7abpq::::res://Scripts/Movement.gd<>uid://crklf6xpj2dko::::res://Assets/Sprites/Trees/Treemap.png
 ::res://Assets/::1785225505
-::res://Assets/Sprites/::1785231258
+::res://Assets/Sprites/::1785232276
+::res://Assets/Sprites/Ground/::1785233380
+Ground.png::CompressedTexture2D::8517368335540594177::1785233380::1785233381::1::::<><><>0<>0<>617b450b43d11f5221390baf835aebc8<>res://.godot/imported/Ground.png-9841f4496b183f7ecdb0b08cb2c27ee9.ctex::
 ::res://Assets/Sprites/Player/::1785231782
 Character.png::CompressedTexture2D::2431192517713369128::1785231782::1785231782::1::::<><><>0<>0<>67263ebfcbf6d76c6f4e27c1791b2a2c<>res://.godot/imported/Character.png-0b54f26cf3f62d1878c8c9bb1cdcec1d.ctex::
 ::res://Assets/Sprites/Trees/::1785230549
