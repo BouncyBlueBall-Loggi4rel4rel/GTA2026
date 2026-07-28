@@ -1,11 +1,17 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1785224945
+::res://::1785225747
 icon.svg::CompressedTexture2D::2312257426707822001::1785222136::1785222144::1::::<><><>0<>0<>4906f2eae45f022e1a0fa299424e4e51<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-Main.tscn::PackedScene::630753646471820232::1785224945::0::1::::<><><>0<>0<><>::uid://cxs410tylrdl8::::res://Justdebugsprites/Green16x16.png<>uid://bhcbhricemcba::::res://Character/Character.tscn<>uid://7tog35e7abpq::::res://Scripts/Movement.gd
+Main.tscn::PackedScene::630753646471820232::1785225747::0::1::::<><><>0<>0<><>::uid://cxs410tylrdl8::::res://Justdebugsprites/Green16x16.png<>uid://bhcbhricemcba::::res://Character/Character.tscn<>uid://7tog35e7abpq::::res://Scripts/Movement.gd<>uid://byfx8hv5y64lh::::res://Assets/Sprites/Trees/Tree Sprite 1.png
+::res://Assets/::1785225505
+::res://Assets/Sprites/::1785225515
+::res://Assets/Sprites/Trees/::1785225935
+Terrain (16x16).png::CompressedTexture2D::664528512217454571::1785225935::1785225935::1::::<><><>0<>0<>2de363c2ac428a3fe8bd5617efd509c4<>res://.godot/imported/Terrain (16x16).png-070d03bb4d8076fae10fcf9351931903.ctex::
+Tree Sprite 1.png::CompressedTexture2D::4082730643309398249::1785225520::1785225520::1::::<><><>0<>0<>684a8038f607b766ed15f8736ca7990e<>res://.godot/imported/Tree Sprite 1.png-74d880cddbf925b36cdfe7fe9defc8e5.ctex::
+Tree sprite 2.png::CompressedTexture2D::5995640161165359525::1785225520::1785225520::1::::<><><>0<>0<>ec8c86fa1d4f217e9fac1eac29793a3d<>res://.godot/imported/Tree sprite 2.png-37639788cd00eb8bbfa3e7fe927bd48f.ctex::
 ::res://Character/::1785224838
 Character.tscn::PackedScene::2881945467569625994::1785223134::0::1::::<><><>0<>0<><>::uid://77csosqsqr3v::::res://icon.svg
-::res://Justdebugsprites/::1785225045
+::res://Justdebugsprites/::1785225046
 BadBush.png::CompressedTexture2D::6326454217955985906::1785225045::1785225046::1::::<><><>0<>0<>2ece8cafca034210b5673d2a003359d2<>res://.godot/imported/BadBush.png-b3a24614c65420b1f18348337beab011.ctex::
 Green16x16.png::CompressedTexture2D::6426152137606637083::1785222208::1785222208::1::::<><><>0<>0<>e576db283d09e337361af3182aefeaff<>res://.godot/imported/Green16x16.png-fa15e6e61e4e8326c2fbe32e06c3d37b.ctex::
-::res://Scripts/::1785224917
-Movement.gd::GDScript::2286128443628774546::1785224917::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://Scripts/::1785225747
+Movement.gd::GDScript::2286128443628774546::1785225747::0::1::::<>CharacterBody2D<><>0<>0<><>::

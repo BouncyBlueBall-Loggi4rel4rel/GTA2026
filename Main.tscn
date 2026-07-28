@@ -3,16 +3,28 @@
 [ext_resource type="Texture2D" uid="uid://cxs410tylrdl8" path="res://Justdebugsprites/Green16x16.png" id="1_glv2v"]
 [ext_resource type="PackedScene" uid="uid://bhcbhricemcba" path="res://Character/Character.tscn" id="2_uu6xs"]
 [ext_resource type="Script" uid="uid://7tog35e7abpq" path="res://Scripts/Movement.gd" id="3_r0du0"]
-[ext_resource type="Texture2D" uid="uid://cwet1n28acuja" path="res://Justdebugsprites/BadBush.png" id="4_cm0pq"]
+[ext_resource type="Texture2D" uid="uid://byfx8hv5y64lh" path="res://Assets/Sprites/Trees/Tree Sprite 1.png" id="4_cm0pq"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fos0i"]
-size = Vector2(126, 57)
+size = Vector2(37, 85.5)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cm0pq"]
+texture = ExtResource("4_cm0pq")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+0:1/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_lgr22"]
+tile_size = Vector2i(32, 32)
+sources/2 = SubResource("TileSetAtlasSource_cm0pq")
 
 [node name="Node2D" type="Node2D" unique_id=1202836951]
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=309994377]
-offset_right = 1146.0
-offset_bottom = 652.0
+offset_left = 11.0
+offset_top = 2.0
+offset_right = 1157.0
+offset_bottom = 654.0
 texture = ExtResource("1_glv2v")
 
 [node name="CharacterBody2D" parent="." unique_id=2117472170 instance=ExtResource("2_uu6xs")]
@@ -26,9 +38,13 @@ position = Vector2(1003, 343)
 
 [node name="Sprite2D" type="Sprite2D" parent="StaticBody2D" unique_id=2075686690]
 texture_filter = 1
-scale = Vector2(7.9375, 7.4375)
+scale = Vector2(3.6875002, 3.4552166)
 texture = ExtResource("4_cm0pq")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1206382627]
-position = Vector2(0, 30.5)
+position = Vector2(1.5, 58.25)
 shape = SubResource("RectangleShape2D_fos0i")
+
+[node name="TileMap" type="TileMap" parent="." unique_id=1052961027]
+tile_set = SubResource("TileSet_lgr22")
+format = 2
