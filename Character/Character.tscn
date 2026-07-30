@@ -16,9 +16,8 @@ func _process(delta: float) -> void:
 	pass
 "
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_vx5l7"]
-radius = 58.0
-height = 154.0
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1vivr"]
+size = Vector2(120, 135)
 
 [node name="CharacterBody2D" type="CharacterBody2D" unique_id=2117472170]
 script = SubResource("GDScript_oolk3")
@@ -30,4 +29,5 @@ scale = Vector2(5, 5)
 texture = ExtResource("1_vx5l7")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=901063913]
-shape = SubResource("CapsuleShape2D_vx5l7")
+position = Vector2(0, 1.5)
+shape = SubResource("RectangleShape2D_1vivr")

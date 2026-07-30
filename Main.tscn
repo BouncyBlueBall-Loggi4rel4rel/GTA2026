@@ -5,6 +5,7 @@
 [ext_resource type="Script" uid="uid://7tog35e7abpq" path="res://Scripts/Movement.gd" id="3_r0du0"]
 [ext_resource type="Texture2D" uid="uid://b73bmykvkhl06" path="res://Assets/Sprites/Trees/Treemap.png" id="4_cm0pq"]
 [ext_resource type="PackedScene" uid="uid://ihhp20cbhiqi" path="res://UI.tscn" id="5_fos0i"]
+[ext_resource type="PackedScene" uid="uid://cusd0rbaisvf3" path="res://Berry.tscn" id="6_3dxm6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_trn2v"]
 texture = ExtResource("1_cm0pq")
@@ -80,3 +81,8 @@ format = 2
 layer_0/tile_data = PackedInt32Array(65530, 0, 0, 131066, 0, 2, 196602, 0, 1, 65531, 65536, 0, 131067, 65536, 2, 196603, 65536, 1, 131068, 131072, 2, 196604, 131072, 1, 196605, 196608, 1, 131069, 196608, 2, 458743, 262144, 1, 65532, 131072, 0, 65533, 196608, 0, 327675, 196608, 1, 262139, 196608, 0, 458745, 262144, 0)
 
 [node name="Control" parent="." unique_id=282470319 instance=ExtResource("5_fos0i")]
+
+[node name="Fruit" type="Node" parent="." unique_id=1094259649]
+
+[node name="Area2D" parent="Fruit" unique_id=295486189 instance=ExtResource("6_3dxm6")]
+position = Vector2(-376, -713)

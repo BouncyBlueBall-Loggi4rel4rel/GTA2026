@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cusd0rbaisvf3"]
+
+[ext_resource type="Texture2D" uid="uid://dmsrel5j6yew0" path="res://Assets/Sprites/Items/Blaubeer Item.png" id="1_6m3id"]
+[ext_resource type="Script" uid="uid://cg22cybrmbl7" path="res://Scripts/Berry.gd" id="1_p6ode"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_1vivr"]
+radius = 36.124783
+
+[node name="Area2D" type="Area2D" unique_id=295486189]
+script = ExtResource("1_p6ode")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1510093008]
+texture_filter = 1
+scale = Vector2(4, 4)
+texture = ExtResource("1_6m3id")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1452661056]
+position = Vector2(-5, -7)
+shape = SubResource("CircleShape2D_1vivr")
