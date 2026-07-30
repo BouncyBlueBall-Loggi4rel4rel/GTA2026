@@ -5,6 +5,8 @@
 [ext_resource type="Script" uid="uid://7tog35e7abpq" path="res://Scripts/Movement.gd" id="3_r0du0"]
 [ext_resource type="Texture2D" uid="uid://crklf6xpj2dko" path="res://Assets/Sprites/Trees/Treemap.png" id="4_cm0pq"]
 [ext_resource type="Texture2D" uid="uid://defrvvmk360uu" path="res://Assets/UI/HeartEmpty.png" id="5_fos0i"]
+[ext_resource type="Script" uid="uid://jx8godx6lekw" path="res://texture_progress_bar.gd" id="6_3dxm6"]
+[ext_resource type="Script" uid="uid://d3g8ecieeifh3" path="res://button.gd" id="7_lgr22"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3dxm6"]
 texture = ExtResource("1_cm0pq")
@@ -81,11 +83,21 @@ layer_0/tile_data = PackedInt32Array(65530, 6, 0, 131066, 6, 2, 196602, 6, 1, 65
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1468025315]
 
-[node name="TextureProgressBar" type="TextureProgressBar" parent="CanvasLayer" unique_id=135842455]
+[node name="ProgressBar" type="TextureProgressBar" parent="CanvasLayer" unique_id=135842455]
 texture_filter = 1
-offset_left = -575.0
-offset_top = -324.0
-offset_right = -529.0
-offset_bottom = -316.0
+offset_right = 46.0
+offset_bottom = 8.0
+scale = Vector2(7, 7)
 texture_under = ExtResource("5_fos0i")
 texture_progress = SubResource("CompressedTexture2D_3dxm6")
+script = ExtResource("6_3dxm6")
+
+[node name="Button" type="Button" parent="CanvasLayer" unique_id=1384887242]
+offset_top = 45.0
+offset_right = 44.0
+offset_bottom = 76.0
+text = "Hurt"
+script = ExtResource("7_lgr22")
+target_path = NodePath("../ProgressBar")
+
+[connection signal="pressed" from="CanvasLayer/Button" to="CanvasLayer/Button" method="_on_pressed"]

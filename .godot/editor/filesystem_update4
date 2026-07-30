@@ -1,4 +1,4 @@
-res://Movement.gd
 res://Main.tscn
 res://Scripts/Movement.gd
-res://Character/Character.tscn
+res://texture_progress_bar.gd
+res://button.gd
