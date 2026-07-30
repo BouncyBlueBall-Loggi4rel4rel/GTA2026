@@ -1,0 +1,198 @@
+[gd_scene format=3 uid="uid://ihhp20cbhiqi"]
+
+[ext_resource type="Script" uid="uid://hbmttmgo8r8x" path="res://Scripts/WaterFoodScript.gd" id="1_3ujc7"]
+[ext_resource type="Texture2D" uid="uid://defrvvmk360uu" path="res://Assets/UI/HeartEmpty.png" id="1_g6l6n"]
+[ext_resource type="Texture2D" uid="uid://br5cjkagldxmp" path="res://Assets/UI/Heart.png" id="2_27c8x"]
+[ext_resource type="Script" uid="uid://jx8godx6lekw" path="res://Scripts/Healthbar.gd" id="2_qui0h"]
+[ext_resource type="Texture2D" uid="uid://b65lru72djt5e" path="res://Assets/UI/HungerEmpty.png" id="3_0mc3e"]
+[ext_resource type="Script" uid="uid://d3g8ecieeifh3" path="res://Scripts/ButtonHealth.gd" id="3_vrfts"]
+[ext_resource type="Texture2D" uid="uid://b15iyj6fautf2" path="res://Assets/UI/Hunger.png" id="4_2n5f6"]
+[ext_resource type="Script" uid="uid://cmwjiglqk60oq" path="res://Scripts/Hungerbar.gd" id="5_0mc3e"]
+[ext_resource type="Script" uid="uid://q87qe8w6kgxy" path="res://Scripts/ButtonHunger.gd" id="7_2n5f6"]
+[ext_resource type="Script" uid="uid://da1wwj4vstuv3" path="res://Scripts/Waterbar.gd" id="7_i1vam"]
+[ext_resource type="Texture2D" uid="uid://cu8d4a1wjf758" path="res://Assets/UI/Water.png" id="7_q77pa"]
+[ext_resource type="Script" uid="uid://jhfpilyay2xp" path="res://Scripts/ButtonWater.gd" id="11_n8582"]
+[ext_resource type="FontFile" uid="uid://c5hu42s3288rc" path="res://Assets/Fonts/Minecraft.ttf" id="12_c6dx3"]
+[ext_resource type="Texture2D" uid="uid://dmsrel5j6yew0" path="res://Assets/Sprites/Items/Blaubeer Item.png" id="13_foiwe"]
+[ext_resource type="Texture2D" uid="uid://ckhwbp5g7w5jm" path="res://Assets/Sprites/Items/Water item.png" id="14_3ujc7"]
+[ext_resource type="Texture2D" uid="uid://c0wjl2uncwclt" path="res://Assets/Sprites/Items/MushroomItem.png" id="14_5xurb"]
+
+[node name="Control" type="Control" unique_id=282470319]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1259678460]
+script = ExtResource("1_3ujc7")
+
+[node name="ProgressBarHealth" type="TextureProgressBar" parent="CanvasLayer" unique_id=1469206674]
+texture_filter = 1
+offset_right = 45.0
+offset_bottom = 8.142857
+scale = Vector2(7, 7)
+texture_under = ExtResource("1_g6l6n")
+texture_progress = ExtResource("2_27c8x")
+script = ExtResource("2_qui0h")
+metadata/_edit_use_anchors_ = true
+
+[node name="ProgressBarHunger" type="TextureProgressBar" parent="CanvasLayer" unique_id=267189599]
+texture_filter = 1
+offset_top = 53.999996
+offset_right = 46.0
+offset_bottom = 61.999996
+scale = Vector2(7, 7)
+texture_under = ExtResource("3_0mc3e")
+texture_progress = ExtResource("4_2n5f6")
+script = ExtResource("5_0mc3e")
+metadata/_edit_use_anchors_ = true
+
+[node name="ProgressBarWater" type="TextureProgressBar" parent="CanvasLayer" unique_id=1439462232]
+texture_filter = 1
+offset_top = 115.00001
+offset_right = 46.0
+offset_bottom = 123.00001
+scale = Vector2(7, 7)
+texture_under = ExtResource("3_0mc3e")
+texture_progress = ExtResource("7_q77pa")
+script = ExtResource("7_i1vam")
+metadata/_edit_use_anchors_ = true
+
+[node name="Button" type="Button" parent="CanvasLayer" unique_id=831274063]
+offset_left = 319.0
+offset_top = 6.0
+offset_right = 363.0
+offset_bottom = 37.0
+text = "Hurt"
+script = ExtResource("3_vrfts")
+target_path = NodePath("../ProgressBarHealth")
+metadata/_edit_use_anchors_ = true
+
+[node name="Button2" type="Button" parent="CanvasLayer" unique_id=625915342]
+offset_left = 323.0
+offset_top = 55.0
+offset_right = 367.0
+offset_bottom = 86.0
+text = "Hunger"
+script = ExtResource("7_2n5f6")
+target_path = NodePath("../ProgressBarHunger")
+metadata/_edit_use_anchors_ = true
+
+[node name="Button3" type="Button" parent="CanvasLayer" unique_id=1565182577]
+offset_left = 323.0
+offset_top = 116.0
+offset_right = 389.0
+offset_bottom = 147.0
+text = "Thirst"
+script = ExtResource("11_n8582")
+target_path = NodePath("../ProgressBarWater")
+metadata/_edit_use_anchors_ = true
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer" unique_id=1790350410]
+texture_filter = 1
+offset_left = 994.0
+offset_top = 34.0
+offset_right = 1026.0
+offset_bottom = 66.0
+texture = ExtResource("13_foiwe")
+metadata/_edit_use_anchors_ = true
+
+[node name="TextureRect3" type="TextureRect" parent="CanvasLayer" unique_id=1272543596]
+texture_filter = 1
+offset_left = 994.0
+offset_top = 61.0
+offset_right = 1026.0
+offset_bottom = 93.0
+texture = ExtResource("14_5xurb")
+metadata/_edit_use_anchors_ = true
+
+[node name="TextureRect2" type="TextureRect" parent="CanvasLayer" unique_id=936514657]
+texture_filter = 1
+offset_left = 994.0
+offset_top = -3.0
+offset_right = 1026.0
+offset_bottom = 29.0
+texture = ExtResource("14_3ujc7")
+metadata/_edit_use_anchors_ = true
+
+[node name="InfoLabel" type="Label" parent="CanvasLayer" unique_id=1893140219]
+texture_filter = 1
+offset_left = 1026.0
+offset_top = 1.0
+offset_right = 1138.0
+offset_bottom = 130.0
+theme_override_fonts/font = ExtResource("12_c6dx3")
+theme_override_font_sizes/font_size = 29
+text = "Food: 5
+Water: 3
+Heal:
+"
+metadata/_edit_use_anchors_ = true
+
+[node name="WaterPlus" type="Button" parent="CanvasLayer" unique_id=560245151]
+offset_left = 980.0
+offset_top = 2.0
+offset_right = 994.0
+offset_bottom = 24.0
+theme_override_font_sizes/font_size = 10
+text = "+"
+metadata/_edit_use_anchors_ = true
+
+[node name="WaterMinus" type="Button" parent="CanvasLayer" unique_id=1533284975]
+offset_left = 965.0
+offset_top = 2.0
+offset_right = 979.0
+offset_bottom = 24.0
+theme_override_font_sizes/font_size = 10
+text = "-
+"
+metadata/_edit_use_anchors_ = true
+
+[node name="FoodMinus" type="Button" parent="CanvasLayer" unique_id=1250055779]
+offset_left = 965.0
+offset_top = 36.0
+offset_right = 979.0
+offset_bottom = 58.0
+theme_override_font_sizes/font_size = 10
+text = "-
+"
+metadata/_edit_use_anchors_ = true
+
+[node name="FoodPlus" type="Button" parent="CanvasLayer" unique_id=1937373636]
+offset_left = 980.0
+offset_top = 36.0
+offset_right = 994.0
+offset_bottom = 58.0
+theme_override_font_sizes/font_size = 10
+text = "+
+
+"
+metadata/_edit_use_anchors_ = true
+
+[node name="HealMinus" type="Button" parent="CanvasLayer" unique_id=1060764406]
+offset_left = 980.0
+offset_top = 36.0
+offset_right = 994.0
+offset_bottom = 58.0
+theme_override_font_sizes/font_size = 10
+text = "+
+
+"
+metadata/_edit_use_anchors_ = true
+
+[node name="HealPlus" type="Button" parent="CanvasLayer" unique_id=477126303]
+offset_left = 980.0
+offset_top = 36.0
+offset_right = 994.0
+offset_bottom = 58.0
+theme_override_font_sizes/font_size = 10
+text = "+
+
+"
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="CanvasLayer/Button" to="CanvasLayer/Button" method="_on_pressed"]
+[connection signal="pressed" from="CanvasLayer/Button2" to="CanvasLayer/Button2" method="_on_pressed"]
+[connection signal="pressed" from="CanvasLayer/Button3" to="CanvasLayer/Button3" method="_on_pressed"]

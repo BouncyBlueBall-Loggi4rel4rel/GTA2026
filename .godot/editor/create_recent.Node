@@ -1,4 +1,6 @@
 Button
+TextureRect
+Label
 TextureProgressBar
 CanvasLayer
 TileMap
@@ -7,4 +9,3 @@ Sprite2D
 StaticBody2D
 Camera2D
 CharacterBody2D
-TextureRect

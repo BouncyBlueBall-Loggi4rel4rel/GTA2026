@@ -1,4 +1,3 @@
 res://Main.tscn
-res://Scripts/Movement.gd
-res://texture_progress_bar.gd
-res://button.gd
+res://UI.tscn
+res://Scripts/WaterFoodScript.gd
