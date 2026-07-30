@@ -1,1 +1,3 @@
 res://Main.tscn
+res://UI.tscn
+res://Scripts/WaterFoodScript.gd
