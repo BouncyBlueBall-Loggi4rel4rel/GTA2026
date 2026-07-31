@@ -7,6 +7,7 @@ extends CanvasLayer
 
 @onready var hunger_bar: TextureProgressBar = $ProgressBarHunger
 @onready var water_bar: TextureProgressBar = $ProgressBarWater
+@onready var health_bar: TextureProgressBar = $ProgressBarHealth
 
 @onready var eat_button: Button = $Eat
 @onready var drink_button: Button = $Drink
@@ -20,6 +21,16 @@ var water_add_percent := 3.0
 
 var food_cost := 1
 var water_cost := 1
+
+func respawn() :
+	water = 0
+	food = 0
+	heal = 0
+	_update_label()
+	hunger_bar.set_progress(100)
+	water_bar.set_progress(100)
+	health_bar.set_progress(100)
+	Gamemanager.player.respawn()
 
 func add_food(amount: int) -> void:
 	food += amount

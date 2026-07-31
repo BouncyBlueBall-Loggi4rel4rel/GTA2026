@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://bhcbhricemcba"]
 
 [ext_resource type="Texture2D" uid="uid://bavxndyiqkfnk" path="res://Assets/Sprites/Player/Character.png" id="1_vx5l7"]
+[ext_resource type="Texture2D" uid="uid://cirf07fdssrjs" path="res://Assets/Sprites/Player/charakter back.png" id="2_vbi5m"]
+[ext_resource type="Texture2D" uid="uid://dtx7wwws6lyiu" path="res://Assets/Sprites/Player/charakter side sprite new (1).png" id="3_aetg1"]
 
 [sub_resource type="GDScript" id="GDScript_oolk3"]
 script/source = "extends CharacterBody2D
@@ -22,11 +24,25 @@ size = Vector2(120, 135)
 [node name="CharacterBody2D" type="CharacterBody2D" unique_id=2117472170 groups=["player"]]
 script = SubResource("GDScript_oolk3")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=234748680]
+[node name="SpriteBack" type="Sprite2D" parent="." unique_id=234748680]
+visible = false
 texture_filter = 1
 position = Vector2(-0.5, -0.50000393)
 scale = Vector2(5, 5)
 texture = ExtResource("1_vx5l7")
+
+[node name="SpriteFront" type="Sprite2D" parent="." unique_id=1523478504]
+texture_filter = 1
+position = Vector2(-0.5, -0.50000393)
+scale = Vector2(5, 5)
+texture = ExtResource("2_vbi5m")
+
+[node name="SpriteSide" type="Sprite2D" parent="." unique_id=1498712266]
+visible = false
+texture_filter = 1
+position = Vector2(-0.5, -0.50000393)
+scale = Vector2(5, 5)
+texture = ExtResource("3_aetg1")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=901063913]
 position = Vector2(0, 1.5)

@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://c6v40olvjqhsf"]
+
+[ext_resource type="Script" uid="uid://db0caxjiwtit8" path="res://Scripts/Puzzle.gd" id="1_b7owj"]
+[ext_resource type="Texture2D" uid="uid://citxg8xroinjx" path="res://Assets/Sprites/Items/Puzzle.png" id="1_bksaw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1vivr"]
+size = Vector2(33.5, 32)
+
+[node name="Area2D" type="Area2D" unique_id=1273111915]
+scale = Vector2(4, 4)
+script = ExtResource("1_b7owj")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1175807983]
+texture_filter = 1
+texture = ExtResource("1_bksaw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2010975517]
+position = Vector2(-0.5, -0.75)
+shape = SubResource("RectangleShape2D_1vivr")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

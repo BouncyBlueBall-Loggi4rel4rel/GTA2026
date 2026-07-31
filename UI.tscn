@@ -46,7 +46,7 @@ offset_bottom = 32.0
 theme_override_fonts/font = ExtResource("12_c6dx3")
 text = "Drink"
 
-[node name="ProgressBarHealth" type="TextureProgressBar" parent="CanvasLayer" unique_id=1469206674]
+[node name="ProgressBarHealth" type="TextureProgressBar" parent="CanvasLayer" unique_id=1469206674 node_paths=PackedStringArray("Canvaslayer")]
 texture_filter = 1
 offset_right = 45.0
 offset_bottom = 8.142857
@@ -54,9 +54,10 @@ scale = Vector2(7, 7)
 texture_under = ExtResource("1_g6l6n")
 texture_progress = ExtResource("2_27c8x")
 script = ExtResource("2_qui0h")
+Canvaslayer = NodePath("..")
 metadata/_edit_use_anchors_ = true
 
-[node name="ProgressBarHunger" type="TextureProgressBar" parent="CanvasLayer" unique_id=267189599]
+[node name="ProgressBarHunger" type="TextureProgressBar" parent="CanvasLayer" unique_id=267189599 node_paths=PackedStringArray("Canvaslayer")]
 texture_filter = 1
 offset_top = 53.999996
 offset_right = 46.0
@@ -65,9 +66,10 @@ scale = Vector2(7, 7)
 texture_under = ExtResource("3_0mc3e")
 texture_progress = ExtResource("4_2n5f6")
 script = ExtResource("5_0mc3e")
+Canvaslayer = NodePath("..")
 metadata/_edit_use_anchors_ = true
 
-[node name="ProgressBarWater" type="TextureProgressBar" parent="CanvasLayer" unique_id=1439462232]
+[node name="ProgressBarWater" type="TextureProgressBar" parent="CanvasLayer" unique_id=1439462232 node_paths=PackedStringArray("Canvaslayer")]
 texture_filter = 1
 offset_top = 115.00001
 offset_right = 46.0
@@ -76,6 +78,7 @@ scale = Vector2(7, 7)
 texture_under = ExtResource("3_0mc3e")
 texture_progress = ExtResource("7_q77pa")
 script = ExtResource("7_i1vam")
+Canvaslayer = NodePath("..")
 metadata/_edit_use_anchors_ = true
 
 [node name="Button" type="Button" parent="CanvasLayer" unique_id=831274063]
@@ -89,6 +92,7 @@ target_path = NodePath("../ProgressBarHealth")
 metadata/_edit_use_anchors_ = true
 
 [node name="Button2" type="Button" parent="CanvasLayer" unique_id=625915342]
+visible = false
 offset_left = 323.0
 offset_top = 55.0
 offset_right = 367.0
@@ -99,6 +103,7 @@ target_path = NodePath("../ProgressBarHunger")
 metadata/_edit_use_anchors_ = true
 
 [node name="Button3" type="Button" parent="CanvasLayer" unique_id=1565182577]
+visible = false
 offset_left = 323.0
 offset_top = 116.0
 offset_right = 389.0
@@ -150,10 +155,10 @@ Heal:
 metadata/_edit_use_anchors_ = true
 
 [node name="HealMinus" type="Button" parent="CanvasLayer" unique_id=1060764406]
-offset_left = 955.0
-offset_top = 134.0
-offset_right = 969.0
-offset_bottom = 156.0
+offset_left = 962.0
+offset_top = 67.0
+offset_right = 976.0
+offset_bottom = 89.0
 theme_override_font_sizes/font_size = 10
 text = "-
 
@@ -162,10 +167,10 @@ text = "-
 metadata/_edit_use_anchors_ = true
 
 [node name="HealPlus" type="Button" parent="CanvasLayer" unique_id=477126303]
-offset_left = 972.0
-offset_top = 134.0
-offset_right = 986.0
-offset_bottom = 156.0
+offset_left = 978.0
+offset_top = 67.0
+offset_right = 992.0
+offset_bottom = 89.0
 theme_override_font_sizes/font_size = 10
 text = "+
 
