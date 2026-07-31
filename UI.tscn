@@ -2,7 +2,6 @@
 
 [ext_resource type="Script" uid="uid://hbmttmgo8r8x" path="res://Scripts/WaterFoodScript.gd" id="1_3ujc7"]
 [ext_resource type="Texture2D" uid="uid://defrvvmk360uu" path="res://Assets/UI/HeartEmpty.png" id="1_g6l6n"]
-[ext_resource type="Script" uid="uid://ctd1x7k43peow" path="res://Scripts/Hungeradder.gd" id="1_qo1pa"]
 [ext_resource type="Texture2D" uid="uid://br5cjkagldxmp" path="res://Assets/UI/Heart.png" id="2_27c8x"]
 [ext_resource type="Script" uid="uid://jx8godx6lekw" path="res://Scripts/Healthbar.gd" id="2_qui0h"]
 [ext_resource type="Texture2D" uid="uid://b65lru72djt5e" path="res://Assets/UI/HungerEmpty.png" id="3_0mc3e"]
@@ -27,7 +26,6 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_qo1pa")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1259678460 groups=["ui_food"]]
 script = ExtResource("1_3ujc7")
@@ -39,6 +37,14 @@ offset_right = 991.7826
 offset_bottom = 65.0
 theme_override_fonts/font = ExtResource("12_c6dx3")
 text = "Eat"
+
+[node name="Drink" type="Button" parent="CanvasLayer" unique_id=775910237]
+offset_left = 943.0
+offset_top = 1.0
+offset_right = 992.0
+offset_bottom = 32.0
+theme_override_fonts/font = ExtResource("12_c6dx3")
+text = "Drink"
 
 [node name="ProgressBarHealth" type="TextureProgressBar" parent="CanvasLayer" unique_id=1469206674]
 texture_filter = 1
@@ -140,25 +146,6 @@ theme_override_font_sizes/font_size = 29
 text = "Food: 5
 Water: 3
 Heal: 
-"
-metadata/_edit_use_anchors_ = true
-
-[node name="WaterPlus" type="Button" parent="CanvasLayer" unique_id=560245151]
-offset_left = 931.0
-offset_top = 1.0
-offset_right = 945.0
-offset_bottom = 23.0
-theme_override_font_sizes/font_size = 10
-text = "+"
-metadata/_edit_use_anchors_ = true
-
-[node name="WaterMinus" type="Button" parent="CanvasLayer" unique_id=1533284975]
-offset_left = 911.0
-offset_top = 2.0
-offset_right = 925.0
-offset_bottom = 24.0
-theme_override_font_sizes/font_size = 10
-text = "-
 "
 metadata/_edit_use_anchors_ = true
 

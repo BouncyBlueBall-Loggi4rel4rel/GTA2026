@@ -1,8 +1,8 @@
-Button
-CollisionShape2D
-Sprite2D
-Area2D
 Node
+CollisionShape2D
+Area2D
+Button
+Sprite2D
 Timer
 TextureRect
 Label

@@ -19,7 +19,7 @@ func _process(delta: float) -> void:
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1vivr"]
 size = Vector2(120, 135)
 
-[node name="CharacterBody2D" type="CharacterBody2D" unique_id=2117472170]
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=2117472170 groups=["player"]]
 script = SubResource("GDScript_oolk3")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=234748680]

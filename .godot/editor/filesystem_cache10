@@ -1,51 +1,14 @@
 78098b89c88a74ebe8c20117b8754620
-<<<<<<< Updated upstream
-::res://::1785406209
+::res://::1785485051
+Berry.tscn::PackedScene::6214004729999027050::1785427519::0::1::::<><><>0<>0<><>::uid://dmsrel5j6yew0::::res://Assets/Sprites/Items/Blaubeer Item.png<>uid://cg22cybrmbl7::::res://Scripts/Berry.gd
 icon.svg::CompressedTexture2D::2312257426707822001::1785222136::1785222144::1::::<><><>0<>0<>4906f2eae45f022e1a0fa299424e4e51<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-Main.tscn::PackedScene::630753646471820232::1785406109::0::1::::<><><>0<>0<><>::uid://cb8tr42basxl1::::res://Assets/Sprites/Ground/Ground.png<>uid://bhcbhricemcba::::res://Character/Character.tscn<>uid://7tog35e7abpq::::res://Scripts/Movement.gd<>uid://b73bmykvkhl06::::res://Assets/Sprites/Trees/Treemap.png<>uid://ihhp20cbhiqi::::res://UI.tscn
-UI.tscn::PackedScene::576414656083672592::1785406209::0::1::::<><><>0<>0<><>::uid://hbmttmgo8r8x::::res://Scripts/WaterFoodScript.gd<>uid://defrvvmk360uu::::res://Assets/UI/HeartEmpty.png<>uid://br5cjkagldxmp::::res://Assets/UI/Heart.png<>uid://jx8godx6lekw::::res://Scripts/Healthbar.gd<>uid://b65lru72djt5e::::res://Assets/UI/HungerEmpty.png<>uid://d3g8ecieeifh3::::res://Scripts/ButtonHealth.gd<>uid://b15iyj6fautf2::::res://Assets/UI/Hunger.png<>uid://cmwjiglqk60oq::::res://Scripts/Hungerbar.gd<>uid://q87qe8w6kgxy::::res://Scripts/ButtonHunger.gd<>uid://da1wwj4vstuv3::::res://Scripts/Waterbar.gd<>uid://cu8d4a1wjf758::::res://Assets/UI/Water.png<>uid://jhfpilyay2xp::::res://Scripts/ButtonWater.gd<>uid://c5hu42s3288rc::::res://Assets/Fonts/Minecraft.ttf<>uid://dmsrel5j6yew0::::res://Assets/Sprites/Items/Blaubeer Item.png<>uid://ckhwbp5g7w5jm::::res://Assets/Sprites/Items/Water item.png
-::res://Assets/::1785404613
-::res://Assets/Fonts/::1785404617
-Minecraft.ttf::FontFile::6894224895930705408::1785404616::1785404617::1::::<><><>0<>0<>2a778d37a1d04068a7d4da82a5b75b65<>res://.godot/imported/Minecraft.ttf-5f6638f398155e2f47c5ecdd9b344f48.fontdata::
-::res://Assets/Sprites/::1785404973
-::res://Assets/Sprites/Ground/::1785398588
-Ground.png::CompressedTexture2D::4912340223200196444::1785398375::1785398588::1::::<><><>0<>0<>41bdc7d4045185843e6ff3f3dce04074<>res://.godot/imported/Ground.png-9841f4496b183f7ecdb0b08cb2c27ee9.ctex::
-::res://Assets/Sprites/Items/::1785406459
-Blaubeer Item.png::CompressedTexture2D::8039726930913695205::1785405079::1785405092::1::::<><><>0<>0<>889b8c6a96d4fe80ed208eea4884838f<>res://.godot/imported/Blaubeer Item.png-907d1dc8ad7481ac48c9c3216d5955e1.ctex::
-Mushroom sprite new.png::CompressedTexture2D::8343667257926468294::1785406376::1785406376::1::::<><><>0<>0<>21d02038d83e5ffc800b05c46e7ebd0d<>res://.godot/imported/Mushroom sprite new.png-07d6c3c5d734c26e22ca49578b01215d.ctex::
-MushroomItem.png::CompressedTexture2D::6573546315214921601::1785406459::1785406459::1::::<><><>0<>0<>caf8479d3ae9879c5078b10f34c7550f<>res://.godot/imported/MushroomItem.png-0eab4314f1fb50a479ced0ba17b81eee.ctex::
-Water item.png::CompressedTexture2D::5490518842190371110::1785404980::1785404981::1::::<><><>0<>0<>ffde4f0683baf5b9f75d69b28e611148<>res://.godot/imported/Water item.png-42020aece78eeb3fe8a4e00069089646.ctex::
-::res://Assets/Sprites/Player/::1785403850
-Character.png::CompressedTexture2D::2431192517713369128::1785403850::1785403850::1::::<><><>0<>0<>67263ebfcbf6d76c6f4e27c1791b2a2c<>res://.godot/imported/Character.png-0b54f26cf3f62d1878c8c9bb1cdcec1d.ctex::
-::res://Assets/Sprites/Trees/::1785398588
-Treemap.png::CompressedTexture2D::4690349680719679893::1785398375::1785398588::1::::<><><>0<>0<>e25edb51d5aca0e212265a6410d797e4<>res://.godot/imported/Treemap.png-031303e1fb7a0f8495f97b62a3551432.ctex::
-::res://Assets/UI/::1785404190
-Heart.png::CompressedTexture2D::3641700389813080459::1785398375::1785398588::1::::<><><>0<>0<>23a1374be694a782fac678589fb4fc07<>res://.godot/imported/Heart.png-eb47e04d2e6e94f774c6314df5bb1588.ctex::
-HeartEmpty.png::CompressedTexture2D::7451410126971789976::1785398375::1785398588::1::::<><><>0<>0<>2be3c33f86f23f2e9aae2cfedbcd03f2<>res://.godot/imported/HeartEmpty.png-d3427a4c016aa6b4c98f9dbee60c55bf.ctex::
-Hunger.png::CompressedTexture2D::4273791066726659089::1785399231::1785399231::1::::<><><>0<>0<>421157cd5445a1eef4bdefbd35048a3a<>res://.godot/imported/Hunger.png-470ea7173834b3d5ddb318b174a6d6ca.ctex::
-HungerEmpty.png::CompressedTexture2D::4624905515642598948::1785399233::1785399234::1::::<><><>0<>0<>7e2634f0fd1d918142df0c181aa96438<>res://.godot/imported/HungerEmpty.png-c3d37c4ed9960ca147b82733bb952444.ctex::
-Inventory.png::CompressedTexture2D::2728204978062582932::1785404190::1785404190::1::::<><><>0<>0<>9338304b00d9776185e70bafbc44d2a9<>res://.godot/imported/Inventory.png-f11b58ffe7a2fbaf2587a66b6987610d.ctex::
-Water.png::CompressedTexture2D::6244976686209119509::1785403055::1785403055::1::::<><><>0<>0<>6e189be7a6d30d242d8f55014c9ae70b<>res://.godot/imported/Water.png-1f395b9ed217824804364ce7ef326b96.ctex::
-::res://Character/::1785398375
-Character.tscn::PackedScene::2881945467569625994::1785398375::0::1::::<><><>0<>0<><>::uid://bavxndyiqkfnk::::res://Assets/Sprites/Player/Character.png
-::res://Justdebugsprites/::1785398588
-BadBush.png::CompressedTexture2D::6326454217955985906::1785398375::1785398588::1::::<><><>0<>0<>2ece8cafca034210b5673d2a003359d2<>res://.godot/imported/BadBush.png-b3a24614c65420b1f18348337beab011.ctex::
-Green16x16.png::CompressedTexture2D::6426152137606637083::1785222208::1785222208::1::::<><><>0<>0<>e576db283d09e337361af3182aefeaff<>res://.godot/imported/Green16x16.png-fa15e6e61e4e8326c2fbe32e06c3d37b.ctex::
-::res://Scripts/::1785405755
-ButtonHealth.gd::GDScript::9138946860998024606::1785402489::0::1::::<>Button<><>0<>0<><>::
-ButtonHunger.gd::GDScript::1193117742676848766::1785402512::0::1::::<>Button<><>0<>0<><>::
-ButtonWater.gd::GDScript::646481047164190857::1785403121::0::1::::<>Button<><>0<>0<><>::
-Healthbar.gd::GDScript::681195397658582754::1785402497::0::1::::<>TextureProgressBar<><>0<>0<><>::
-Hungerbar.gd::GDScript::5661084873792570536::1785399804::0::1::::<>TextureProgressBar<><>0<>0<><>::
-Movement.gd::GDScript::2286128443628774546::1785398375::0::1::::<>CharacterBody2D<><>0<>0<><>::
-Waterbar.gd::GDScript::7214311452480075214::1785403043::0::1::::<>TextureProgressBar<><>0<>0<><>::
-WaterFoodScript.gd::GDScript::494149833991621861::1785405755::0::1::::<>CanvasLayer<><>0<>0<><>::
-=======
-::res://::1785427508
-Berry.tscn::PackedScene::6214004729999027050::1785425742::0::1::::<><><>0<>0<><>::uid://dmsrel5j6yew0::::res://Assets/Sprites/Items/Blaubeer Item.png<>uid://cg22cybrmbl7::::res://Scripts/Berry.gd
-icon.svg::CompressedTexture2D::2312257426707822001::1785222136::1785222144::1::::<><><>0<>0<>4906f2eae45f022e1a0fa299424e4e51<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-Main.tscn::PackedScene::630753646471820232::1785425776::0::1::::<><><>0<>0<><>::uid://cb8tr42basxl1::::res://Assets/Sprites/Ground/Ground.png<>uid://bhcbhricemcba::::res://Character/Character.tscn<>uid://7tog35e7abpq::::res://Scripts/Movement.gd<>uid://b73bmykvkhl06::::res://Assets/Sprites/Trees/Treemap.png<>uid://ihhp20cbhiqi::::res://UI.tscn<>uid://cusd0rbaisvf3::::res://Berry.tscn
-UI.tscn::PackedScene::576414656083672592::1785427189::0::1::::<><><>0<>0<><>::uid://hbmttmgo8r8x::::res://Scripts/WaterFoodScript.gd<>uid://defrvvmk360uu::::res://Assets/UI/HeartEmpty.png<>uid://ctd1x7k43peow::::res://Scripts/Hungeradder.gd<>uid://br5cjkagldxmp::::res://Assets/UI/Heart.png<>uid://jx8godx6lekw::::res://Scripts/Healthbar.gd<>uid://b65lru72djt5e::::res://Assets/UI/HungerEmpty.png<>uid://d3g8ecieeifh3::::res://Scripts/ButtonHealth.gd<>uid://b15iyj6fautf2::::res://Assets/UI/Hunger.png<>uid://cmwjiglqk60oq::::res://Scripts/Hungerbar.gd<>uid://q87qe8w6kgxy::::res://Scripts/ButtonHunger.gd<>uid://da1wwj4vstuv3::::res://Scripts/Waterbar.gd<>uid://cu8d4a1wjf758::::res://Assets/UI/Water.png<>uid://jhfpilyay2xp::::res://Scripts/ButtonWater.gd<>uid://c5hu42s3288rc::::res://Assets/Fonts/Minecraft.ttf<>uid://dmsrel5j6yew0::::res://Assets/Sprites/Items/Blaubeer Item.png<>uid://ckhwbp5g7w5jm::::res://Assets/Sprites/Items/Water item.png<>uid://c0wjl2uncwclt::::res://Assets/Sprites/Items/MushroomItem.png<>uid://bff2saftga4h6::::res://Scripts/Hungertimer.gd<>uid://c2uaqlfv0fn7r::::res://Scripts/Watertimer.gd
+Main.tscn::PackedScene::630753646471820232::1785485015::0::1::::<><><>0<>0<><>::uid://cb8tr42basxl1::::res://Assets/Sprites/Ground/Ground.png<>uid://bhcbhricemcba::::res://Character/Character.tscn<>uid://7tog35e7abpq::::res://Scripts/Movement.gd<>uid://b73bmykvkhl06::::res://Assets/Sprites/Trees/Treemap.png<>uid://ihhp20cbhiqi::::res://UI.tscn<>uid://cusd0rbaisvf3::::res://Berry.tscn<>uid://ccym6le4rm256::::res://Waterarea.tscn
+UI.tscn::PackedScene::576414656083672592::1785484736::0::1::::<><><>0<>0<><>::uid://hbmttmgo8r8x::::res://Scripts/WaterFoodScript.gd<>uid://defrvvmk360uu::::res://Assets/UI/HeartEmpty.png<>uid://br5cjkagldxmp::::res://Assets/UI/Heart.png<>uid://jx8godx6lekw::::res://Scripts/Healthbar.gd<>uid://b65lru72djt5e::::res://Assets/UI/HungerEmpty.png<>uid://d3g8ecieeifh3::::res://Scripts/ButtonHealth.gd<>uid://b15iyj6fautf2::::res://Assets/UI/Hunger.png<>uid://cmwjiglqk60oq::::res://Scripts/Hungerbar.gd<>uid://q87qe8w6kgxy::::res://Scripts/ButtonHunger.gd<>uid://da1wwj4vstuv3::::res://Scripts/Waterbar.gd<>uid://cu8d4a1wjf758::::res://Assets/UI/Water.png<>uid://jhfpilyay2xp::::res://Scripts/ButtonWater.gd<>uid://c5hu42s3288rc::::res://Assets/Fonts/Minecraft.ttf<>uid://dmsrel5j6yew0::::res://Assets/Sprites/Items/Blaubeer Item.png<>uid://ckhwbp5g7w5jm::::res://Assets/Sprites/Items/Water item.png<>uid://c0wjl2uncwclt::::res://Assets/Sprites/Items/MushroomItem.png<>uid://bff2saftga4h6::::res://Scripts/Hungertimer.gd<>uid://c2uaqlfv0fn7r::::res://Scripts/Watertimer.gd
+Waterarea.tscn::PackedScene::4963548669560869015::1785481669::0::1::::<><><>0<>0<><>::uid://cyf8ae2d7t4kp::::res://Scripts/Waterarea.gd
+::res://addons/::1785484528
+::res://addons/tilemap_json_importer/::1785484914
+plugin.cfg::TextFile::-1::1785484914::0::1::::<><><>0<>0<><>::
+plugin.gd::GDScript::3943978996332402508::1785484736::0::1::::<>EditorPlugin<><>0<>1<><>::
 ::res://Assets/::1785407043
 ::res://Assets/Fonts/::1785412111
 Minecraft.ttf::FontFile::6894224895930705408::1785407043::1785412111::1::::<><><>0<>0<>2a778d37a1d04068a7d4da82a5b75b65<>res://.godot/imported/Minecraft.ttf-5f6638f398155e2f47c5ecdd9b344f48.fontdata::
@@ -67,21 +30,23 @@ Hunger.png::CompressedTexture2D::4273791066726659089::1785407043::1785412111::1:
 HungerEmpty.png::CompressedTexture2D::4624905515642598948::1785407043::1785412111::1::::<><><>0<>0<>7e2634f0fd1d918142df0c181aa96438<>res://.godot/imported/HungerEmpty.png-c3d37c4ed9960ca147b82733bb952444.ctex::
 Inventory.png::CompressedTexture2D::2728204978062582932::1785407043::1785412111::1::::<><><>0<>0<>9338304b00d9776185e70bafbc44d2a9<>res://.godot/imported/Inventory.png-f11b58ffe7a2fbaf2587a66b6987610d.ctex::
 Water.png::CompressedTexture2D::6244976686209119509::1785407043::1785412111::1::::<><><>0<>0<>6e189be7a6d30d242d8f55014c9ae70b<>res://.godot/imported/Water.png-1f395b9ed217824804364ce7ef326b96.ctex::
-::res://Character/::1785423603
-Character.tscn::PackedScene::2881945467569625994::1785423603::0::1::::<><><>0<>0<><>::uid://bavxndyiqkfnk::::res://Assets/Sprites/Player/Character.png
+::res://Character/::1785484849
+Character.tscn::PackedScene::2881945467569625994::1785484849::0::1::::<><><>0<>0<><>::uid://bavxndyiqkfnk::::res://Assets/Sprites/Player/Character.png
+::res://editor/::1785484663
 ::res://Justdebugsprites/::1785398588
 BadBush.png::CompressedTexture2D::6326454217955985906::1785398375::1785398588::1::::<><><>0<>0<>2ece8cafca034210b5673d2a003359d2<>res://.godot/imported/BadBush.png-b3a24614c65420b1f18348337beab011.ctex::
 Green16x16.png::CompressedTexture2D::6426152137606637083::1785222208::1785222208::1::::<><><>0<>0<>e576db283d09e337361af3182aefeaff<>res://.godot/imported/Green16x16.png-fa15e6e61e4e8326c2fbe32e06c3d37b.ctex::
-::res://Scripts/::1785427473
-Berry.gd::GDScript::154451671231182762::1785426480::0::1::::<>Area2D<><>0<>0<><>::
+::res://Scripts/::1785484064
+Berry.gd::GDScript::154451671231182762::1785427519::0::1::::<>Area2D<><>0<>0<><>::
 ButtonHealth.gd::GDScript::9138946860998024606::1785407043::0::1::::<>Button<><>0<>0<><>::
 ButtonHunger.gd::GDScript::1193117742676848766::1785407043::0::1::::<>Button<><>0<>0<><>::
 ButtonWater.gd::GDScript::646481047164190857::1785407043::0::1::::<>Button<><>0<>0<><>::
 Healthbar.gd::GDScript::681195397658582754::1785407043::0::1::::<>TextureProgressBar<><>0<>0<><>::
 Hungerbar.gd::GDScript::5661084873792570536::1785407043::0::1::::<>TextureProgressBar<><>0<>0<><>::
-Hungertimer.gd::GDScript::2749358302343891457::1785424498::0::1::::<>Timer<><>0<>0<><>::
+Hungertimer.gd::GDScript::2749358302343891457::1785427519::0::1::::<>Timer<><>0<>0<><>::
 Movement.gd::GDScript::2286128443628774546::1785398375::0::1::::<>CharacterBody2D<><>0<>0<><>::
+Tilemapexporter.gd::GDScript::45860804161308088::1785482871::0::1::::<>Node<><>0<>0<><>::
+Waterarea.gd::GDScript::6469699416213541007::1785481877::0::1::::<>Area2D<><>0<>0<><>::
 Waterbar.gd::GDScript::7214311452480075214::1785407043::0::1::::<>TextureProgressBar<><>0<>0<><>::
-WaterFoodScript.gd::GDScript::494149833991621861::1785427473::0::1::::<>CanvasLayer<><>0<>0<><>::
-Watertimer.gd::GDScript::6709256859865388957::1785424867::0::1::::<>Timer<><>0<>0<><>::
->>>>>>> Stashed changes
+WaterFoodScript.gd::GDScript::494149833991621861::1785484064::0::1::::<>CanvasLayer<><>0<>0<><>::
+Watertimer.gd::GDScript::6709256859865388957::1785427519::0::1::::<>Timer<><>0<>0<><>::
