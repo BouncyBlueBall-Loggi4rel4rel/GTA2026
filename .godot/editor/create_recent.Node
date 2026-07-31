@@ -1,11 +1,14 @@
+Node
+CollisionShape2D
+Area2D
 Button
+Sprite2D
+Timer
 TextureRect
 Label
 TextureProgressBar
 CanvasLayer
 TileMap
-CollisionShape2D
-Sprite2D
 StaticBody2D
 Camera2D
 CharacterBody2D

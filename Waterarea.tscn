@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://ccym6le4rm256"]
+
+[ext_resource type="Script" uid="uid://cyf8ae2d7t4kp" path="res://Scripts/Waterarea.gd" id="1_lmrht"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1vivr"]
+size = Vector2(260, 280)
+
+[node name="Area2D" type="Area2D" unique_id=1894313323]
+script = ExtResource("1_lmrht")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1856671606]
+position = Vector2(-1, 0)
+shape = SubResource("RectangleShape2D_1vivr")

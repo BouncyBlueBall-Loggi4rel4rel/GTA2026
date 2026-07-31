@@ -16,6 +16,8 @@
 [ext_resource type="Texture2D" uid="uid://dmsrel5j6yew0" path="res://Assets/Sprites/Items/Blaubeer Item.png" id="13_foiwe"]
 [ext_resource type="Texture2D" uid="uid://ckhwbp5g7w5jm" path="res://Assets/Sprites/Items/Water item.png" id="14_3ujc7"]
 [ext_resource type="Texture2D" uid="uid://c0wjl2uncwclt" path="res://Assets/Sprites/Items/MushroomItem.png" id="14_5xurb"]
+[ext_resource type="Script" uid="uid://bff2saftga4h6" path="res://Scripts/Hungertimer.gd" id="17_taqas"]
+[ext_resource type="Script" uid="uid://c2uaqlfv0fn7r" path="res://Scripts/Watertimer.gd" id="18_d5rvm"]
 
 [node name="Control" type="Control" unique_id=282470319]
 layout_mode = 3
@@ -25,8 +27,24 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1259678460]
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1259678460 groups=["ui_food"]]
 script = ExtResource("1_3ujc7")
+
+[node name="Eat" type="Button" parent="CanvasLayer" unique_id=518444679]
+offset_left = 954.0
+offset_top = 34.0
+offset_right = 991.7826
+offset_bottom = 65.0
+theme_override_fonts/font = ExtResource("12_c6dx3")
+text = "Eat"
+
+[node name="Drink" type="Button" parent="CanvasLayer" unique_id=775910237]
+offset_left = 943.0
+offset_top = 1.0
+offset_right = 992.0
+offset_bottom = 32.0
+theme_override_fonts/font = ExtResource("12_c6dx3")
+text = "Drink"
 
 [node name="ProgressBarHealth" type="TextureProgressBar" parent="CanvasLayer" unique_id=1469206674]
 texture_filter = 1
@@ -131,51 +149,11 @@ Heal:
 "
 metadata/_edit_use_anchors_ = true
 
-[node name="WaterPlus" type="Button" parent="CanvasLayer" unique_id=560245151]
-offset_left = 980.0
-offset_top = 2.0
-offset_right = 994.0
-offset_bottom = 24.0
-theme_override_font_sizes/font_size = 10
-text = "+"
-metadata/_edit_use_anchors_ = true
-
-[node name="WaterMinus" type="Button" parent="CanvasLayer" unique_id=1533284975]
-offset_left = 965.0
-offset_top = 2.0
-offset_right = 979.0
-offset_bottom = 24.0
-theme_override_font_sizes/font_size = 10
-text = "-
-"
-metadata/_edit_use_anchors_ = true
-
-[node name="FoodMinus" type="Button" parent="CanvasLayer" unique_id=1250055779]
-offset_left = 965.0
-offset_top = 36.0
-offset_right = 979.0
-offset_bottom = 58.0
-theme_override_font_sizes/font_size = 10
-text = "-
-"
-metadata/_edit_use_anchors_ = true
-
-[node name="FoodPlus" type="Button" parent="CanvasLayer" unique_id=1937373636]
-offset_left = 980.0
-offset_top = 36.0
-offset_right = 994.0
-offset_bottom = 58.0
-theme_override_font_sizes/font_size = 10
-text = "+
-
-"
-metadata/_edit_use_anchors_ = true
-
 [node name="HealMinus" type="Button" parent="CanvasLayer" unique_id=1060764406]
-offset_left = 965.0
-offset_top = 68.0
-offset_right = 979.0
-offset_bottom = 90.0
+offset_left = 955.0
+offset_top = 134.0
+offset_right = 969.0
+offset_bottom = 156.0
 theme_override_font_sizes/font_size = 10
 text = "-
 
@@ -184,15 +162,27 @@ text = "-
 metadata/_edit_use_anchors_ = true
 
 [node name="HealPlus" type="Button" parent="CanvasLayer" unique_id=477126303]
-offset_left = 980.0
-offset_top = 68.0
-offset_right = 994.0
-offset_bottom = 90.0
+offset_left = 972.0
+offset_top = 134.0
+offset_right = 986.0
+offset_bottom = 156.0
 theme_override_font_sizes/font_size = 10
 text = "+
 
 "
 metadata/_edit_use_anchors_ = true
+
+[node name="Hungertimer" type="Timer" parent="CanvasLayer" unique_id=862604756]
+wait_time = 7.0
+autostart = true
+script = ExtResource("17_taqas")
+target_path = NodePath("../ProgressBarHunger")
+
+[node name="Watertimer" type="Timer" parent="CanvasLayer" unique_id=2137966800]
+wait_time = 4.0
+autostart = true
+script = ExtResource("18_d5rvm")
+target_path = NodePath("../ProgressBarWater")
 
 [connection signal="pressed" from="CanvasLayer/Button" to="CanvasLayer/Button" method="_on_pressed"]
 [connection signal="pressed" from="CanvasLayer/Button2" to="CanvasLayer/Button2" method="_on_pressed"]
